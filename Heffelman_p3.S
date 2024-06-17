@@ -1,18 +1,5 @@
 // Ryan Heffelman
-// Perry Kivolowitz
-// CSC 3510 - Computer Organization
 // Thursday, March 28, 2024
-// Project 3
-
-// This is my own code, I did not work with a partner.
-
-// strlen() can be unsafe if your string isn't properly null terminated.
-
-// Note on my commenting:
-// My functions typically modify some "global registers" x19-x28. A lot of them effectively have
-// the signature void funcName();. Most wouldn't technically have return types or parameters.
-// Because of this, I've deviated from your commenting scheme, but I've done my best to add
-// descriptive comments despite not following your scheme exactly.
 
 .text
 .global main
