@@ -15,7 +15,6 @@ main:
     stp     x25, x26, [sp, -16]!
     stp     x27, x28, [sp, -16]!
 
-    // initialize x19-x28 to 0 to prevent the mistake I made last time.
     mov     x19, 0
     mov     x20, 0 // pointer to buffer
     mov     x21, 0 // writeIndex
@@ -123,7 +122,7 @@ ret
 void prynt();
 
 Prints all the strings in the circular buffer in the order they'd naturally appear
-in the file, and then deallocating the buffers which contain the strings. All memory
+in the file, and then deallocates the buffers which contain the strings. All memory
 belonging to this program should be deallocated by the time this function returns.
 
 Global Variables:
